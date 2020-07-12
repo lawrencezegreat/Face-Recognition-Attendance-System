@@ -16,6 +16,8 @@ face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Initialize sample face image
 count = 0
 
+
+
 assure_path_exists("dataset/")
 
 # Start looping
